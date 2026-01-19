@@ -188,6 +188,56 @@
     width: 100%;
 }
 
+.host-container{
+    background-color: #230E3D;
+    padding: 120px 200px;
+
+}
+.host{
+    display: flex;
+    justify-content: space-around;
+    background-color:#3511656d ;
+    border-radius: 24px;
+    padding: 40px;
+    gap: 24px;
+    text-align: left;
+}
+.host-social {
+    display: flex;
+    gap: 8px;
+   
+}
+.host-social img{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 2px;
+}
+.host-img{
+    width: 400px;
+    height: 200px;
+}
+.host-container h1{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding-bottom: 40px;
+}
+.host-card h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+}
+.host-card p {
+    font-size: 16px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.655);
+    padding-bottom:12px ;
+}
+
+
+
 
 #footer-section {
     background-image: url(../assets/footer-bg.png);
