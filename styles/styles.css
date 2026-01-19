@@ -11,6 +11,9 @@
     display: flex;
     
 }
+
+
+
 .hero-circle{
     position: absolute;
     top: 110px;
@@ -111,7 +114,7 @@
     border-radius: 20px;
     background-color:#3511656d;
 }
-.card-container{
+#card-container{
     display: grid;
     gap: 20px;
     /* margin: 40px 200px; */
@@ -125,17 +128,52 @@
              "exclusive exclusive rich"
 
 }
-.card-container p{
+#card-container p{
     text-align: left;
     padding-top: 16px;
     font-size: 16px;
     color: rgba(255, 255, 255, 0.555);
 }
-.card-container h5 {
+#card-container h5 {
     text-align: left;
     font-size: 24px;
     font-weight: bold;
     padding-top: 16px;
+}
+
+
+#audio:hover{
+    background-color: rgb(255, 255, 255);
+    
+}
+#mobile:hover{
+    background-color: rgb(255, 255, 255);
+}
+#global:hover{
+    background-color: rgb(255, 255, 255);
+}
+#exclusive:hover{
+    background-color: rgb(255, 255, 255);
+}
+#rich:hover{
+     background-color: rgb(255, 255, 255);
+}
+
+#audio:hover p{
+    color:black;
+    
+}
+#mobile:hover p{
+    color: black;
+}
+#global:hover p{
+    color:black;
+}
+#exclusive:hover p{
+    color: black;
+}
+#rich:hover p{
+     color: black;
 }
 /* 
 #future-section{
@@ -169,6 +207,15 @@
    
 
 }
+.card:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.card:hover p{
+    color: black;
+}
+
 .card h2{
     font-size: 24px;
     font-weight: bold;
@@ -202,12 +249,13 @@
     margin-left: 20px;
 }
 
-.host-container{
+#host-container{
     background-color: #1A0B2E;
-    padding: 120px 200px;
+    padding: 0 200px;
+    padding-bottom: 200px;
     
 }
-.host{
+#host{
     display: flex;
     justify-content: space-around;
     background-color:#3511656d ;
@@ -216,6 +264,17 @@
     gap: 24px;
     text-align: left;
 }
+#host:hover{
+     background-color:white
+     
+     
+}
+
+#host:hover h2, 
+#host:hover p {
+    color: black ;
+}
+
 .host-social {
     display: flex;
     gap: 8px;
@@ -230,20 +289,20 @@
     width: 400px;
     height: 200px;
 }
-.host-container h1{
+#host-container h1{
     font-size: 48px;
     font-weight: bold;
     text-align: center;
     color: white;
     padding-bottom: 40px;
 }
-.host-card h2 {
+#host-card h2 {
     font-size: 32px;
     font-weight: bold;
     text-align: left;
     color: white;
 }
-.host-card p {
+#host-card p {
     font-size: 16px;
     text-align: left;
     color: rgba(255, 255, 255, 0.655);

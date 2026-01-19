@@ -26,30 +26,45 @@
                 </ul>
 
                 <button class="bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-600
-           text-white font-semibold rounded-full text-xs p-1">Subscribe</button>
+           text-white font-semibold rounded-full text-xs py-1 px-4">Subscribe →</button>
             </div>
             <div class="border-t border-gray-700  opacity-50 mx-auto w-full"></div>
         </nav>
 
 
-        <section id="hero-section" >
+        <section id="hero-section">
+            <div class="absolute left-[57%] top-[125px] -translate-x-1/2 
+            bg-[#00FF88] text-black font-semibold px-[10px] py-[8px] 
+            z-[2] overflow-hidden flex items-center justify-center 
+            transition-transform duration-300 origin-center 
+             rounded-full  bg-[#00FF88] text-black font-bold px-8 py-3 rounded-full 
+               shadow-[0_0_20px_#00FF88] hover:shadow-[0_0_40px_#00FF88] 
+               transition-shadow duration-300"><button>NEW</button></div>
            <div>
              <div class="hero-circle">
-                <img src="assets/hero-circle.png" alt="">
+                <img src="assets/hero-circle.png" alt="" class="animate-spin">
             </div>
             <div class="microphone">
-                <img src="assets/microphone.png" alt="">
+                <img src="assets/microphone.png" alt="" class="animate-bounce">
             </div>
             <div class="hero-text">
                     <h1 class="text-5xl font-extrabold mb- ml-38">TechWave</h1>
                     <p class="mt-3">Your daily dose of tech insights, productivity hacks, and personal growth</p>
-                    <button class="ml-28  items-center justify-center
-                    px-6 py-1 rounded-full
+                    
+                    <div class=" flex justify-center w-full">
+                        <button class=" inline-flex gap-2  items-center justify-center mt-4 px-4 py-1 rounded-full
                      bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-600
-                     text-white font-semibold ">Listen on Spotify</button>
-                    <button class="px-6 py-1 rounded-full border border-emerald-400
-                     text-emerald-400 hover:bg-emerald-400 hover:text-black
-                     transition mt-4 ml-2 "> <span><img src="assets/message.png" alt=""></span>Subscribe</button>
+                     text-white font-semibold  hover:-translate-y-3 transition-transform duration-300">
+                     <span><img src="assets/spotify.png" alt=""></span>
+                     <span>Listen on Spotify</span>
+
+                    </button>
+                   <button class=" inline-flex items-center gap-2 px-4 py-1 rounded-full border border-emerald-400 text-emerald-400 hover:bg-emerald-400 hover:text-black transition mt-4 ml-2  hover:-translate-y-3 transition-transform duration-300">
+                        <span><img src="assets/message.png" alt=""></span>
+                         <span>Subscribe</span>
+                    </button>
+                    </div>
+                     
             </div>
            </div>
         </section>
@@ -87,29 +102,29 @@
         </section>
 
 
-<section class="card-container">
+<section id="card-container">
             <div id="card-text"><h2>Why Choose Us</h2></div>
-            <div id="audio">
+            <div id="audio" class="hover:text-black hover:-translate-y-3 transition-transform duration-300">
                 <img src="assets/headphone.png" alt="">
                 <h5>Premium Audio Quality</h5>
                 <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
             </div>
-            <div id="mobile">
+            <div id="mobile" class="hover:text-black hover:-translate-y-3 transition-transform duration-300">
                 <img src="assets/device.png" alt="">
                 <h5>Mobile Friendly</h5>
                 <p>Listen on the go with seamless mobile experience and offline downloads.</p>
             </div>
-            <div id="global">
+            <div id="global" class="hover:text-black hover:-translate-y-3 transition-transform duration-300">
                 <img src="assets/location.png" alt="">
                 <h5>Global Community</h5>
                 <p>Connect with tech enthusiasts from over 120 countries worldwide.</p>
             </div>
-            <div id="exclusive">
+            <div id="exclusive" class="hover:text-black hover:-translate-y-3 transition-transform duration-300">
                 <img src="assets/speed.png" alt="">
                 <h5>Exclusive Interviews</h5>
                 <p>Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and success strategies.</p>
             </div>
-            <div id="rich">
+            <div id="rich" class="hover:text-black hover:-translate-y-3 transition-transform duration-300">
                 <img src="assets/resource.png" alt="">
                 <h5>Rich Resources</h5>
                 <p>Access show notes, transcripts, and additional learning materials for every episode.</p>
@@ -121,9 +136,9 @@
 
 
         <section id="future-section">
-             <h1 class="bg-[#1A0B2E] text-center font-bold text-4xl text-white py-30">Featured Episodes</h1>
+             <h1 class="bg-[#1A0B2E] text-center font-bold text-4xl text-white py-20 " >Featured Episodes</h1>
 
-            <div id="Future-contain">
+            <div id="Future-contain" >
                     
                 <div class="card">
                     <div class="image-btn">
@@ -163,11 +178,11 @@
         </section>
 
 
-<section class="host-container">
+<section id="host-container">
             <h1>Meet The Host</h1>
-            <section class="host">
+            <section id="host" class="hover:-translate-y-3 transition-transform duration-300">
                 <div class="host-img"><img src="assets/host.png" alt=""></div>
-                    <div class="host-card">
+                    <div id="host-card">
                     <h2>Alex Kumar</h2>
                     <p>Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
                     <div class="host-social">
@@ -182,6 +197,7 @@
                         </div>
                         <div>
                             <img src="assets/youtube.png" alt="">
+                        </div>
                         </div>
                     </div>
                 </div>
