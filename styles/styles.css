@@ -380,16 +380,20 @@
 
     
     nav div.flex {
-        flex-direction: column;
+        justify-content: space-around;
         gap: 15px;
         padding-bottom: 20px;
     }
     
     nav ul {
+        display: none;
         gap: 15px;
         font-size: 14px;
         flex-wrap: wrap;
         justify-content: center;
+    }
+    nav button {
+        display: none;
     }
 
     
